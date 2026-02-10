@@ -27,7 +27,7 @@ const App = () => {
         </div>
         <div>
           <h1 className="italic text-2xl mb-3 font-bold">
-            Top Habits(Last Week)
+            Top Habits (Last Week)
           </h1>
           <HabitBarChart />
         </div>
