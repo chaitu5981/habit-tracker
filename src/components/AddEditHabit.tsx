@@ -74,7 +74,7 @@ const AddEditHabit = ({
                 type="checkbox"
                 id={habitType}
                 value={habitType}
-                name={habitType}
+                name={habitType.toLowerCase()}
                 checked={selectedHabits.includes(habitType)}
                 onChange={() => toggleHabit(habitType)}
               />
