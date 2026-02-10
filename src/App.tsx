@@ -18,7 +18,7 @@ const App = () => {
             onClick={() => setOpenAddEditHabit(true)}
             className="bg-[#45A049] mx-auto block mt-5 text-white px-4 py-2 rounded-lg"
           >
-            +Add Data
+            + Add Data
           </button>
         </div>
         <div>
