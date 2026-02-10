@@ -22,13 +22,13 @@ const App = () => {
           </button>
         </div>
         <div>
-          <h1 className="italic text-2xl  font-bold">Average Completions</h1>
+          <h2 className="italic text-2xl  font-bold">Average Completions</h2>
           <HabitPieChart />
         </div>
         <div>
-          <h1 className="italic text-2xl mb-3 font-bold">
+          <h2 className="italic text-2xl mb-3 font-bold">
             Top Habits (Last Week)
-          </h1>
+          </h2>
           <HabitBarChart />
         </div>
       </div>
