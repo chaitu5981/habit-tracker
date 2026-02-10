@@ -32,7 +32,7 @@ const App = () => {
           <HabitBarChart />
         </div>
       </div>
-      <h1 className="text-3xl italic font-bold">Recent Habit Completions</h1>
+      <h2 className="text-3xl italic font-bold">Recent Habit Completions</h2>
       <HabitList />
       <AddEditHabit
         open={openAddEditHabit}
